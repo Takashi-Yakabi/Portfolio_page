@@ -1,0 +1,198 @@
+<!-- works.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>実績・ポートフォリオ - Design Base</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ヘッダー -->
+<header class="site-header">
+  <div class="container header-inner">
+    <h1 class="logo">Design Base</h1>
+    <button class="nav-toggle" type="button" aria-label="メニュー開閉">
+      <span class="hamburger">
+      </span>
+    </button>
+    <div class="nav-and-sns">
+      <nav class="site-nav">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="services.html">サービス</a>
+          </li>
+          <li>
+            <a href="works.html">実績</a>
+          </li>
+          <li>
+            <a href="profile.html">プロフィール</a>
+          </li>
+          <li>
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="sns-icons">
+        <a href="#">
+          <img src="img/x.png" alt="X">
+        </a>
+        <a href="#">
+          <img src="img/insta.png" alt="Instagram">
+        </a>
+        <a href="#">
+          <img src="img/tiktok.png" alt="TikTok">
+        </a>
+        <a href="#">
+          <img src="img/line.png" alt="LINE">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Works -->
+  <section class="hero services-hero" style="background:url('img/page_img.jpg') center/cover no-repeat; padding:120px 0;">
+    <div class="container" style="text-align:center; color:#fff;">
+      <h2 style="font-size:2.5rem; margin-bottom:16px;">Our Portfolio</h2>
+      <p style="font-size:1.2rem;">代表的な事例をご覧ください</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <div class="works-filter">
+    <button class="active" data-cat="all">All</button>
+    <button data-cat="seo">SEO</button>
+    <button data-cat="sns">SNS</button>
+    <button data-cat="video">Youtube</button>
+    <button data-cat="ai">AI</button>
+  </div>
+
+   <!-- Case Studies -->
+   <section class="case-studies">
+    <!-- All Cases -->
+    <div class="container case-container all">
+      <div class="case-item">
+        <img src="img/seo.png" alt="SEO事例1">
+        <div class="case-caption"><h3>SEO事例1</h3><p>短いキャプションが入ります。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/sns.png" alt="SNS事例1">
+        <div class="case-caption"><h3>SNS事例1</h3><p>短いキャプションが入ります。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/youtube.png" alt="youtube事例1">
+        <div class="case-caption"><h3>Youtube事例1</h3><p>短いキャプションが入ります。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/ai.png" alt="AI事例1">
+        <div class="case-caption"><h3>AI事例1</h3><p>短いキャプションが入ります。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+    </div>
+    <!-- SEO Only -->
+    <div class="container case-container seo" style="display:none;">
+      <div class="case-item">
+        <img src="img/seo.png" alt="SEO事例1">
+        <div class="case-caption"><h3>SEO事例1</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/seo.png" alt="SEO事例2">
+        <div class="case-caption"><h3>SEO事例2</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+    </div>
+    <!-- SNS Only -->
+    <div class="container case-container sns" style="display:none;">
+      <div class="case-item">
+        <img src="img/sns.png" alt="SNS事例1">
+        <div class="case-caption"><h3>SNS事例1</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/sns.png" alt="SNS事例2">
+        <div class="case-caption"><h3>SNS事例2</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+    </div>
+    <!-- Video Only -->
+    <div class="container case-container video" style="display:none;">
+      <div class="case-item">
+        <img src="img/youtube.png" alt="youtube事例1">
+        <div class="case-caption"><h3>youtube事例1</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/youtube.png" alt="youtube事例2">
+        <div class="case-caption"><h3>youtube事例2</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+    </div>
+    <!-- AI Only -->
+    <div class="container case-container ai" style="display:none;">
+      <div class="case-item">
+        <img src="img/ai.png" alt="AI事例1">
+        <div class="case-caption"><h3>AI事例1</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+      <div class="case-item">
+        <img src="img/ai.png" alt="AI事例2">
+        <div class="case-caption"><h3>AI事例2</h3><p>キャプションテキスト。</p></div>
+        <a href="#" class="case-link">詳細を見る</a>
+      </div>
+    </div>
+  </section>
+
+<!-- フッター -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">
+      <h2 class="logo">Design Base</h2>
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">サービス</a></li>
+        <li><a href="works.html">実績</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="footer-info">
+      <p>〒123-4567 東京都千代田区丸の内1-2-3</p>
+      <p>TEL: 03-1234-5678</p>
+      <p>Email: info@designbase.jp</p>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2025 Design Base. All Rights Reserved.</p>
+</footer>
+
+  <!-- jQuery (メニュー開閉 & フィルター) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function(){
+      // メニュー開閉
+      $('.nav-toggle').on('click',function(){ $('.nav-and-sns').toggleClass('open'); });
+      // フィルター切り替え
+      $('.works-filter button').on('click', function(){
+        var cat = $(this).data('cat');
+        $('.works-filter button').removeClass('active');
+        $(this).addClass('active');
+        if(cat === 'all'){
+          $('.case-container').show();
+        } else {
+          $('.case-container').hide();
+          $('.case-container.' + cat).show();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

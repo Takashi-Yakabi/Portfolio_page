@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Base</title>
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <!-- js -->
+  <!-- <script src="js/hamburger.js"></script> -->
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Design Base</h1>
+      <button class="nav-toggle" type="button" aria-label="メニュー開閉">
+        <span class="hamburger">
+        </span>
+      </button>
+      <div class="nav-and-sns">
+        <nav class="site-nav">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="services.html">サービス</a>
+            </li>
+            <li>
+              <a href="works.html">実績</a>
+            </li>
+            <li>
+              <a href="profile.html">プロフィール</a>
+            </li>
+            <li>
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sns-icons">
+          <a href="#">
+            <img src="img/x.png" alt="X">
+          </a>
+          <a href="#">
+            <img src="img/insta.png" alt="Instagram">
+          </a>
+          <a href="#">
+            <img src="img/tiktok.png" alt="TikTok">
+          </a>
+          <a href="#">
+            <img src="img/line.png" alt="LINE">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- メインビジュアル（スライダー） -->
+  <div class="main-slider">
+    <div>
+      <img src="img/slider01.png" alt="Slide 1">
+    </div>
+    <div>
+      <img src="img/slider02.png" alt="Slide 2">
+    </div>
+    <div>
+      <img src="img/slider03.png" alt="Slide 3">
+    </div>
+  </div>
+  <!-- コアサービス -->
+  <section class="core-services">
+    <div class="container">
+      <h2 class="section-title">コアサービス</h2>
+      <div class="service-item">
+        <img src="img/seo.png" alt="SEO対策">
+        <p>SEO対策</p>
+      </div>
+      <div class="service-item">
+        <img src="img/sns.png" alt="SNS解析">
+        <p>SNS解析</p>
+      </div>
+      <div class="service-item">
+        <img src="img/youtube.png" alt="YouTube構築">
+        <p>YouTube構築</p>
+      </div>
+      <div class="service-item">
+        <img src="img/ai.png" alt="AI自動対応">
+        <p>AI自動対応</p>
+      </div>
+    </div>
+  </section>
+  <!-- 実績・ポートフォリオ -->
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="section-title">実績・ポートフォリオ</h2>
+      <div class="portfolio-item">
+        <img src="img/page_img.jpg" alt="Portfolio 1">
+        <div class="caption">事例タイトル1</div>
+        <a href="#">詳細を見る</a>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/page_img.jpg" alt="Portfolio 2">
+        <div class="caption">事例タイトル2</div>
+        <a href="#">詳細を見る</a>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/page_img.jpg" alt="Portfolio 3">
+        <div class="caption">事例タイトル3</div>
+        <a href="#">詳細を見る</a>
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+  <section class="about">
+    <div class="container">
+      <div class="about-image">
+        <img src="img/profile.png" alt="代表写真">
+      </div>
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>当社はお客様の課題解決に全力で取り組みます。ミッションは「できないをできるへ」。代表メッセージやビジョンをここに掲載。</p>
+        <p>代表：山田 太郎（Taro Yamada）</p>
+      </div>
+    </div>
+  </section>
+  <!-- お知らせ -->
+  <section id="news" class="section news">
+    <div class="container">
+      <h2>お知らせ</h2>
+      <ul>
+        <li>
+          <time datetime="2025-04-15">2025-04-15</time>サイト公開しました。</li>
+        <li>
+          <time datetime="2025-04-10">2025-04-10</time>新サービス開始予定。</li>
+        <li>
+          <time datetime="2025-04-01">2025-04-01</time>実績ページを更新しました。</li>
+      </ul>
+    </div>
+  </section>
+  <!-- ページリンク -->
+  <section id="page-links" class="section page-links">
+    <div class="container">
+      <h2>各ページ</h2>
+      <ul class="links-flex">
+        <li>
+          <a href="services.html" class="link-item">
+            <img src="img/service.jpg" alt="サービス">
+            <span>サービス紹介</span>
+          </a>
+        </li>
+        <li>
+          <a href="works.html" class="link-item">
+            <img src="img/works.jpg" alt="実績">
+            <span>実績・ポートフォリオ</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class="link-item">
+            <img src="img/profile.jpg" alt="プロフィール">
+            <span>プロフィール</span>
+          </a>
+        </li>
+        <li>
+          <a href="contact.html" class="link-item">
+            <img src="img/contact.jpg" alt="お問い合わせ">
+            <span>お問い合わせ</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">
+        <h2 class="logo">Design Base</h2>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="services.html">サービス</a>
+          </li>
+          <li>
+            <a href="works.html">実績</a>
+          </li>
+          <li>
+            <a href="profile.html">プロフィール</a>
+          </li>
+          <li>
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-info">
+        <p>〒123-4567 東京都千代田区丸の内1-2-3</p>
+        <p>TEL: 03-1234-5678</p>
+        <p>Email: info@designbase.jp</p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Design Base. All Rights Reserved.</p>
+  </footer>
+  <!-- jQuery & Slick JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+  $(function(){
+      // ハンバーガーメニュー
+      const btn = $('.nav-toggle');
+      const navSns = $('.nav-and-sns');
+      btn.on('click', function(){ console.log('hamburger clicked'); navSns.toggleClass('open'); btn.toggleClass('active'); });
+      // Slick Slider 初期化
+      $('.main-slider').slick({ dots: true, arrows: true, autoplay: true, autoplaySpeed: 3000, adaptiveHeight: true });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>プロフィール - Design Base</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Design Base</h1>
+      <button class="nav-toggle" type="button" aria-label="メニュー開閉">
+        <span class="hamburger">
+        </span>
+      </button>
+      <div class="nav-and-sns">
+        <nav class="site-nav">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="services.html">サービス</a>
+            </li>
+            <li>
+              <a href="works.html">実績</a>
+            </li>
+            <li>
+              <a href="profile.html">プロフィール</a>
+            </li>
+            <li>
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sns-icons">
+          <a href="#">
+            <img src="img/x.png" alt="X">
+          </a>
+          <a href="#">
+            <img src="img/insta.png" alt="Instagram">
+          </a>
+          <a href="#">
+            <img src="img/tiktok.png" alt="TikTok">
+          </a>
+          <a href="#">
+            <img src="img/line.png" alt="LINE">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero services-hero" style="background:url('img/page_img.jpg') center/cover no-repeat; padding:120px 0;">
+    <div class="container" style="text-align:center; color:#fff;">
+      <h2 style="font-size:2.5rem; margin-bottom:16px;">About Uss</h2>
+      <p style="font-size:1.2rem;">私たちのストーリーをご覧ください</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="profile-about">
+    <div class="container">
+      <div class="about-image"><img src="img/profile.png" alt="代表写真"></div>
+      <div class="about-text">
+        <h2>代表挨拶</h2>
+        <p>私たちDesign Baseは「できないをできるへ」を掲げ、お客様の課題解決に取り組んでいます。常に最先端の技術とデザインを追求し、価値ある成果を提供します。</p>
+        <p>会社ミッション：お客様の可能性を最大化するパートナーであること。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- History Timeline -->
+  <section class="profile-history">
+    <div class="container">
+      <h2 class="section-title">会社沿革</h2>
+      <ul class="timeline">
+        <li><time datetime="2015-04">2015年4月</time><p>Design Base設立。</p></li>
+        <li><time datetime="2017-09">2017年9月</time><p>初の海外オフィスを東京に開設。</p></li>
+        <li><time datetime="2020-01">2020年1月</time><p>AI自動対応サービスをリリース。</p></li>
+        <li><time datetime="2023-05">2023年5月</time><p>従業員100名を突破。</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Organization Chart -->
+  <div class="org-chart">
+    <div class="container">
+      <ul>
+        <li>
+          <div>代表取締役社長</div>
+          <ul>
+            <li><div>取締役会</div></li>
+            <li><div>経営企画本部</div>
+              <ul>
+                <li><div>経営戦略部</div></li>
+                <li><div>新規事業推進部</div></li>
+              </ul>
+            </li>
+            <li><div>技術本部</div>
+              <ul>
+                <li><div>開発部</div></li>
+                <li><div>インフラ部</div></li>
+                <li><div>AI研究室</div></li>
+              </ul>
+            </li>
+            <li><div>営業本部</div>
+              <ul>
+                <li><div>国内営業部</div></li>
+                <li><div>海外営業部</div></li>
+              </ul>
+            </li>
+            <li><div>管理本部</div>
+              <ul>
+                <li><div>人事部</div></li>
+                <li><div>経理部</div></li>
+                <li><div>法務部</div></li>
+              </ul>
+            </li>
+            <li><div>広報・マーケティング本部</div>
+              <ul>
+                <li><div>広報部</div></li>
+                <li><div>デジタルマーケティング部</div></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">
+        <h2 class="logo">Design Base</h2>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">サービス</a></li>
+          <li><a href="works.html">実績</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="footer-info">
+        <p>〒123-4567 東京都千代田区丸の内1-2-3</p>
+        <p>TEL: 03-1234-5678</p>
+        <p>Email: info@designbase.jp</p>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Design Base. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function(){
+      $('.nav-toggle').on('click',function(){ $('.nav-and-sns').toggleClass('open'); });
+    });
+  </script>
+</body>
+</html>
