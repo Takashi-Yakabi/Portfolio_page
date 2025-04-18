@@ -211,13 +211,23 @@
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script>
   $(function(){
-      // ハンバーガーメニュー
-      const btn = $('.nav-toggle');
-      const navSns = $('.nav-and-sns');
-      btn.on('click', function(){ console.log('hamburger clicked'); navSns.toggleClass('open'); btn.toggleClass('active'); });
-      // Slick Slider 初期化
-      $('.main-slider').slick({ dots: true, arrows: true, autoplay: true, autoplaySpeed: 3000, adaptiveHeight: true });
-    });
+// ハンバーガーメニュー
+const btn = $('.nav-toggle');
+const navSns = $('.nav-and-sns');
+btn.on('click', function() {
+  console.log('hamburger clicked');
+  navSns.toggleClass('open');
+  btn.toggleClass('active');
+});
+// Slick Slider 初期化
+$('.main-slider').slick({
+dots: true,
+arrows: false,
+autoplay: true,
+autoplaySpeed: 3000,
+adaptiveHeight: true
+});
+});
   </script>
 </body>
 
