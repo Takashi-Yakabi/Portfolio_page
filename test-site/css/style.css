@@ -515,7 +515,7 @@ a,a:hover,a:visited{
   }
 
   .links-flex li {
-    flex: 1 1 calc(25% - 20px);
+    flex: 1 1 calc(50% - 20px);
   }
 }
 
